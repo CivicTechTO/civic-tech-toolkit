@@ -1,12 +1,9 @@
-# Intro
----
+# 🦖 Intro
 We're in early stages of the project just getting set up, looking forward to having you come back soon!
 
 Civic Tech Toolkit, now on CTTO github!
 
-# Contributing
----
-
+# 👋 Contributing
 ## Content Contribution Guidelines
 
 This section is just getting set up, if you're interested in helping reach out!
@@ -34,8 +31,7 @@ This section is just getting set up, if you're interested in helping reach out!
 - If you think a resource link or supporting image or diagram would be helpful call it out so we can pursue the 
 
 
-# Colophon
----
+# 👏 Colophon 
 
 ## Docusaurus
 
