@@ -20,7 +20,7 @@ Let's build a better future for our communities, together!
 
 ```
                __
-              / ·_) < (Rawr!)
+              / ·_) < (Hi Toronto!)
      _.----._/ /
     /         /
  __/ (  | (  |
