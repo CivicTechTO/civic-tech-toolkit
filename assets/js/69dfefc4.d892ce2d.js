@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcivicsaurus=self.webpackChunkcivicsaurus||[]).push([[166],{2154:s=>{s.exports=JSON.parse('{"tags":[{"label":"announcement","permalink":"/civicsaurus/blog/tags/announcement","count":1}]}')}}]);

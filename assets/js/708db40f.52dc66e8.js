@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcivicsaurus=self.webpackChunkcivicsaurus||[]).push([[902],{4543:s=>{s.exports=JSON.parse('{"authors":[{"name":"Jordy Arms","title":"Initializer","url":"https://github.com/jordyarms","imageURL":"https://github.com/jordyarms.png","key":"jordyarms","page":null,"count":1}]}')}}]);

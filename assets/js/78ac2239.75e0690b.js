@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcivicsaurus=self.webpackChunkcivicsaurus||[]).push([[66],{1275:s=>{s.exports=JSON.parse('{"metadata":{"permalink":"/civicsaurus/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
