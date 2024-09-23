@@ -8,18 +8,18 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'http://civictechto.github.io',
+  url: 'https://civictechto.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/civicsaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'CivicTechTO', // Usually your GitHub org/user name.
+  organizationName: 'civictechto', // Usually your GitHub org/user name.
   projectName: 'civicsaurus', // Usually your repo name.
   deploymentBranch: 'gh-pages', // Use this branch for GitHub Pages deployment
   trailingSlash: false,
-  
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
