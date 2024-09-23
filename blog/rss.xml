@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Civic Tech Toolkit Alpha Blog</title>
-        <link>http://civictechto.github.io/civicsaurus/blog</link>
+        <link>https://civictechto.github.io/civicsaurus/blog</link>
         <description>Civic Tech Toolkit Alpha Blog</description>
         <lastBuildDate>Sun, 18 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[hello world]]></title>
-            <link>http://civictechto.github.io/civicsaurus/blog/hello-world</link>
-            <guid>http://civictechto.github.io/civicsaurus/blog/hello-world</guid>
+            <link>https://civictechto.github.io/civicsaurus/blog/hello-world</link>
+            <guid>https://civictechto.github.io/civicsaurus/blog/hello-world</guid>
             <pubDate>Sun, 18 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[hello world]]></description>
             <content:encoded><![CDATA[<p>hello world
