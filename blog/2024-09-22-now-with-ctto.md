@@ -5,7 +5,7 @@ authors: [jordyarms]
 tags: [announcement]
 ---
 Happy to announce that the instance of the Civic Tech toolkit project has been ported over to Civic Tech Toronto’s GitHub instance! And, configured to build with GitHub actions!
-
+<!-- truncate -->
 Phew, glad that’s done! 😅
 
 The GitHub repo is up at [github.com/CivicTechTO/civicsaurus](https://github.com/CivicTechTO/civicsaurus).
