@@ -14,6 +14,49 @@ When people show up to do good, let's make their odds great by being better toge
 2) Attend a weekly hacknight at [CivicTechTO](https://civictech.ca) and join our group.
 3) Contribution Guide on the [wiki](https://github.com/CivicTechTO/civicsaurus/wiki) `Coming Soon`
 
+## 🚀 Development - Getting Started
+
+To run this project locally and start contributing, follow these steps:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- npm (comes with Node.js)
+
+### Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/CivicTechTO/civicsaurus.git
+   cd civicsaurus
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+### Running the Development Server
+
+```bash
+   npm start
+```
+
+This will start the local development server. The site will reload automatically if you make changes to the code.
+
+### Building the Site
+
+To create a production build of your site:
+
+```bash
+   npm run build
+```
+
+The build output will be generated in the `build` directory. You can serve this directory locally to test the production build:
+
+```bash
+   npm run serve
+```
 
 
 

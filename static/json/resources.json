@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Docusaurus Documentation",
+      "description": "Official Docusaurus documentation site.",
+      "category": "Documentation",
+      "url": "https://docusaurus.io/docs",
+      "tags": ["docs", "docusaurus", "guide"]
+    },
+    {
+      "title": "MDX Documentation",
+      "description": "Learn how to use MDX for writing content.",
+      "category": "MDX",
+      "url": "https://mdxjs.com/docs",
+      "tags": ["mdx", "content", "markdown"]
+    }
+  ]
