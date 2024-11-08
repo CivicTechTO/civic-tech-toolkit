@@ -1,4 +1,3 @@
-// src/pages/resources.tsx
 import React, { useEffect, useState } from 'react';
 
 // Define a TypeScript interface for your resource data
@@ -14,9 +13,14 @@ const Resources: React.FC = () => {
   const [resources, setResources] = useState<Resource[]>([]);
 
   useEffect(() => {
-    // Fetch the resources.json file
-    fetch('/resources.json')
-      .then((response) => response.json())
+    // Fetch the resources.json file from the correct path
+    fetch('/json/resources.json')
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
       .then((data: Resource[]) => setResources(data))
       .catch((error) => console.error('Error fetching resources:', error));
   }, []);
