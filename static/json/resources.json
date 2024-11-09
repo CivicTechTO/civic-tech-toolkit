@@ -1,16 +1,781 @@
 [
-    {
-      "title": "Docusaurus Documentation",
-      "description": "Official Docusaurus documentation site.",
-      "category": "Documentation",
-      "url": "https://docusaurus.io/docs",
-      "tags": ["docs", "docusaurus", "guide"]
-    },
-    {
-      "title": "MDX Documentation",
-      "description": "Learn how to use MDX for writing content.",
-      "category": "MDX",
-      "url": "https://mdxjs.com/docs",
-      "tags": ["mdx", "content", "markdown"]
-    }
+  {
+    "title": "Usability – Digital.gov",
+    "description": "digital.gov's resources on usability",
+    "url": "https://digital.gov/topics/usability/",
+    "category_name": null,
+    "section_name": "user centered and inclusive",
+    "tag_array": [
+      "user centered "
+    ]
+  },
+  {
+    "title": "GitHub Skills",
+    "description": "Interactive courses designed for both beginners and experts to learn how to use GitHub effectively",
+    "url": "https://skills.github.com/",
+    "section_name": "open and transparent",
+    "category_name": "learn",
+    "tag_array": [
+      "learning"
+    ]
+  },
+  {
+    "title": "Creative Commons",
+    "description": "An organization that provides free, easy-to-use copyright licenses to make creative work legally shareable",
+    "url": "https://creativecommons.org/",
+    "category_name": null,
+    "section_name": "open and transparent",
+    "tag_array": [
+      "licensing"
+    ]
+  },
+  {
+    "title": "The Open Source Initiative (OSI)",
+    "description": "A non-profit organization that promotes and protects open source software through education, collaboration, and infrastructure",
+    "url": "https://opensource.org/",
+    "category_name": null,
+    "section_name": "open and transparent",
+    "tag_array": [
+      "open source",
+      "licensing"
+    ]
+  },
+  {
+    "title": "Software Freedom Law Center",
+    "description": "An organization that provides pro-bono legal services to protect free and open source software projects",
+    "url": "https://www.softwarefreedom.org/",
+    "category_name": null,
+    "section_name": null,
+    "tag_array": [
+      "licensing"
+    ]
+  },
+  {
+    "title": "Electronic Frontier Foundation (EFF)",
+    "description": "A non-profit defending civil liberties in the digital world, which provides resources on copyright and licensing issues",
+    "url": "https://www.eff.org/",
+    "category_name": null,
+    "section_name": null,
+    "tag_array": [
+      "licensing"
+    ]
+  },
+  {
+    "title": "Free Software Foundation (FSF)",
+    "description": "An organization that advocates for the freedom to use, study, and distribute software",
+    "url": "https://www.fsf.org/",
+    "category_name": null,
+    "section_name": null,
+    "tag_array": [
+      "licensing"
+    ]
+  },
+  {
+    "title": "Choose an Open Source License",
+    "description": "A guide to help you select the appropriate open source license for your project",
+    "url": "https://choosealicense.com/",
+    "section_name": "open and transparent",
+    "category_name": "guide",
+    "tag_array": [
+      "open source",
+      "licensing"
+    ]
+  },
+  {
+    "title": "Building Technology With, Not For Communities: An Engagement Guide for Civic Tech",
+    "description": "An article that provides guidelines on engaging communities effectively in civic tech projects",
+    "url": "https://medium.com/organizer-sandbox/building-technology-with-not-for-communities-an-engagement-guide-for-civic-tech-b8880982e65a",
+    "section_name": "user centered and inclusive",
+    "category_name": "idea",
+    "tag_array": [
+      "community building",
+      "user centered "
+    ]
+  },
+  {
+    "title": "Human-Centred Design and User Research with Ariel Sim",
+    "description": "An article that discusses human-centered design principles and the importance of user research in product development",
+    "url": "https://learn.marsdd.com/article/human-centred-design-and-user-research-with-ariel-sim/",
+    "category_name": null,
+    "section_name": "user centered and inclusive",
+    "tag_array": [
+      "user research"
+    ]
+  },
+  {
+    "title": "How to Craft Buyer and User Personas to Benefit Your Business",
+    "description": "An article offering guidance on creating detailed buyer and user personas to improve business strategies",
+    "url": "https://learn.marsdd.com/article/how-to-craft-buyer-and-user-personas-to-benefit-your-business/",
+    "section_name": "user centered and inclusive",
+    "category_name": "guide",
+    "tag_array": [
+      "strategy"
+    ]
+  },
+  {
+    "title": "How to Work Open",
+    "description": "An article explaining the principles and practices of working openly in collaborative projects",
+    "url": "https://openmatt.org/2011/04/06/how-to-work-open/",
+    "section_name": "open and transparent",
+    "category_name": "guide",
+    "tag_array": [
+      "community building",
+      "open source"
+    ]
+  },
+  {
+    "title": "Working Open – Mozilla Science Leadership Training",
+    "description": "An interactive training program designed to build leadership skills for open science and research initiatives",
+    "url": "https://mozillascience.github.io/leadership-training/index.html",
+    "section_name": "open and transparent",
+    "category_name": "guide",
+    "tag_array": [
+      "community building"
+    ]
+  },
+  {
+    "title": "How and Why to Reduce Your Scope",
+    "description": "An article discussing strategies for narrowing project scope to improve focus and efficiency",
+    "url": "https://www.samjulien.com/how-and-why-to-reduce-your-scope",
+    "section_name": "iterative and responsive",
+    "category_name": "guide",
+    "tag_array": [
+      "product management"
+    ]
+  },
+  {
+    "title": "How to Use the Value Proposition Design Canvas",
+    "description": "An article explaining how to utilize the Value Proposition Design Canvas to align product offerings with customer needs",
+    "url": "https://learn.marsdd.com/article/how-to-use-the-value-proposition-design-canvas-2/",
+    "section_name": "vision setting",
+    "category_name": "guide",
+    "tag_array": [
+      "strategy",
+      "product management",
+      "user research"
+    ]
+  },
+  {
+    "title": "The Business Model Canvas",
+    "description": "An article providing an overview of the Business Model Canvas and how it can be used to visualize, design, and pivot business models",
+    "url": "https://www.strategyzer.com/library/the-business-model-canvas",
+    "section_name": "sustainable and scalable",
+    "category_name": "tool",
+    "tag_array": [
+      "strategy"
+    ]
+  },
+  {
+    "title": "The Value Proposition Canvas",
+    "description": "A guide explaining the Value Proposition Canvas and how to use it to ensure products meet customer needs and desires",
+    "url": "https://www.strategyzer.com/library/the-value-proposition-canvas",
+    "section_name": "vision setting",
+    "category_name": "tool",
+    "tag_array": [
+      "strategy",
+      "product management",
+      "user centered ",
+      "user research"
+    ]
+  },
+  {
+    "title": "Scaling Civic Tech",
+    "description": "An in-depth report by the Knight Foundation on strategies for scaling civic tech projects and increasing their impact",
+    "url": "https://knightfoundation.org/wp-content/uploads/2020/03/Scaling_Civic_Tech_final.pdf",
+    "category_name": null,
+    "section_name": "sustainable and scalable",
+    "tag_array": [
+      "scaling"
+    ]
+  },
+  {
+    "title": "The Product Vision Board",
+    "description": "A tool designed by Roman Pichler to help teams describe, visualize, and validate their product vision and strategy",
+    "url": "https://www.romanpichler.com/tools/product-vision-board/",
+    "section_name": "vision setting",
+    "category_name": "tool",
+    "tag_array": [
+      "strategy",
+      "product management"
+    ]
+  },
+  {
+    "title": "Norms for Working in Teams",
+    "description": "Guidelines from Stanford d.school on setting team norms to enhance collaboration and effectiveness",
+    "url": "https://dschool.stanford.edu/resources/norms",
+    "section_name": "leadership and storytelling",
+    "category_name": "idea",
+    "tag_array": [
+      "team development"
+    ]
+  },
+  {
+    "title": "Stages of Team Development",
+    "description": "An article from MIT HR explaining the different stages of team development and how to navigate them effectively",
+    "url": "https://hr.mit.edu/learning-topics/teams/articles/stages-development",
+    "category_name": null,
+    "section_name": "leadership and storytelling",
+    "tag_array": [
+      "leadership",
+      "team development"
+    ]
+  },
+  {
+    "title": "Start with Why by Simon Sinek",
+    "description": "A TED Talk by Simon Sinek explaining the concept of starting with \"Why\" to inspire action and leadership",
+    "url": "https://www.youtube.com/watch?v=u4ZoJKF_VuA",
+    "section_name": "leadership and storytelling",
+    "category_name": "idea",
+    "tag_array": [
+      "leadership"
+    ]
+  },
+  {
+    "title": "Why Good Leaders Make You Feel Safe by Simon Sinek",
+    "description": "A TED Talk by Simon Sinek about the role of leadership in creating a sense of trust and safety within organizations",
+    "url": "https://www.youtube.com/watch?v=lmyZMtPVodo",
+    "section_name": "leadership and storytelling",
+    "category_name": "idea",
+    "tag_array": [
+      "leadership",
+      "team development"
+    ]
+  },
+  {
+    "title": "MIT 15.390 New Enterprises, Spring 2013",
+    "description": "A comprehensive lecture series from MIT's Sloan School of Management covering the process of identifying and quantifying market opportunities, and starting a new, technology-based enterprise",
+    "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63CLq-GxVm4VSr-0iKAS-07",
+    "section_name": "iterative and responsive",
+    "category_name": "learn",
+    "tag_array": [
+      "product management"
+    ]
+  },
+  {
+    "title": "Stakeholder Analysis",
+    "description": "A guide on conducting stakeholder analysis, outlining methods to identify and understand the interests and influence of stakeholders in a project",
+    "url": "https://wikis.ec.europa.eu/display/ExactExternalWiki/Stakeholder+analysis",
+    "category_name": null,
+    "section_name": "connection and relationship",
+    "tag_array": [
+      "user research",
+      "strategy"
+    ]
+  },
+  {
+    "title": "Introduction to System Dynamics (MIT OCW)",
+    "description": "An MIT OpenCourseWare course covering the principles of system dynamics and how to model complex systems to improve decision-making",
+    "url": "https://ocw.mit.edu/courses/15-871-introduction-to-system-dynamics-fall-2013/",
+    "section_name": "connection and relationship",
+    "category_name": "learn",
+    "tag_array": [
+      "systems thinking"
+    ]
+  },
+  {
+    "title": "System Diagrams by Bob Williams",
+    "description": "A resource offering guidance and templates for creating effective system diagrams to understand and improve complex systems",
+    "url": "https://bobwilliams.gumroad.com/l/systemdiagrams",
+    "category_name": null,
+    "section_name": "connection and relationship",
+    "tag_array": [
+      "systems thinking"
+    ]
+  },
+  {
+    "title": "TANGO - Toronto Area Neighbourhood Groups Online",
+    "description": "A platform that maps and connects local residents' associations in Toronto, encouraging community involvement and engagement",
+    "url": "https://tango.to",
+    "category_name": null,
+    "section_name": "connection and relationship",
+    "tag_array": [
+      "community building"
+    ]
+  },
+  {
+    "title": "Group Decision Making",
+    "description": "A comprehensive guide from the University of Waterloo's Centre for Teaching Excellence outlining a seven-step model for effective group decision-making",
+    "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/group-decision-making",
+    "category_name": null,
+    "section_name": "leadership and storytelling",
+    "tag_array": [
+      "decision making"
+    ]
+  },
+  {
+    "title": "Team Decision-Making: How to Get It Right",
+    "description": "An article from Harvard Business School Online discussing strategies and best practices for effective team decision-making",
+    "url": "https://online.hbs.edu/blog/post/team-decision-making",
+    "category_name": null,
+    "section_name": "leadership and storytelling",
+    "tag_array": [
+      "leadership",
+      "decision making"
+    ]
+  },
+  {
+    "title": "How the Discovery Phase Works",
+    "description": "Guidance from the UK Government Service Manual on conducting the discovery phase in agile delivery, including research and user needs assessment",
+    "url": "https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works",
+    "section_name": "discover",
+    "category_name": "guide",
+    "tag_array": [
+      "discover phase"
+    ]
+  },
+  {
+    "title": "Systemic Design Framework",
+    "description": "An in-depth resource from the Design Council introducing a framework for tackling complex problems using systemic design principles",
+    "url": "https://www.designcouncil.org.uk/our-resources/systemic-design-framework/",
+    "category_name": null,
+    "section_name": "leadership and storytelling",
+    "tag_array": [
+      "decision making"
+    ]
+  },
+  {
+    "title": "Seven Tenets of Human-Centred Design",
+    "description": "An article from the Design Council outlining the key principles of human-centred design and how to apply them in projects",
+    "url": "https://www.designcouncil.org.uk/our-resources/seven-tenets-of-human-centred-design/",
+    "section_name": "user centered and inclusive",
+    "category_name": "idea",
+    "tag_array": [
+      "user centered "
+    ]
+  },
+  {
+    "title": "Design Methods Step 1: Discover",
+    "description": "An article from the Design Council outlining the first step in the design process, focusing on discovery and understanding user needs",
+    "url": "https://www.designcouncil.org.uk/our-resources/archive/articles/design-methods-step-1-discover/",
+    "section_name": "discover",
+    "category_name": "guide",
+    "tag_array": [
+      "discover phase"
+    ]
+  },
+  {
+    "title": "Service Design Playbook",
+    "description": "A comprehensive guide by the Ontario Digital Service outlining the process of designing user-centered government services",
+    "url": "https://www.ontario.ca/page/service-design-playbook",
+    "category_name": null,
+    "section_name": "discover",
+    "tag_array": [
+      "discover phase"
+    ]
+  },
+  {
+    "title": "How the Alpha Phase Works",
+    "description": "Guidance from the UK Government Service Manual on what to do during the alpha phase of agile delivery, including prototyping and testing solutions",
+    "url": "https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works",
+    "section_name": "define",
+    "category_name": "guide",
+    "tag_array": [
+      "define phase"
+    ]
+  },
+  {
+    "title": "How to Write a Problem Statement",
+    "description": "An article by Nielsen Norman Group that explains how to craft clear and effective problem statements to guide design and research efforts",
+    "url": "https://www.nngroup.com/articles/problem-statements/",
+    "category_name": null,
+    "section_name": "define",
+    "tag_array": [
+      "problem definition"
+    ]
+  },
+  {
+    "title": "Design Methods Step 2: Define",
+    "description": "An article from the Design Council detailing the second step in the design process, focusing on defining the problem and project scope",
+    "url": "https://www.designcouncil.org.uk/our-resources/archive/articles/design-methods-step-2-define",
+    "category_name": null,
+    "section_name": "define",
+    "tag_array": [
+      "problem definition",
+      "define phase"
+    ]
+  },
+  {
+    "title": "How the Beta Phase Works",
+    "description": "Guidance from the UK Government Service Manual on the beta phase of agile delivery, including developing, testing, and scaling a service",
+    "url": "https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works",
+    "section_name": "develop",
+    "category_name": "guide",
+    "tag_array": [
+      "develop phase"
+    ]
+  },
+  {
+    "title": "Service Design Playbook - Beta Phase",
+    "description": "A section of the Ontario Digital Service's Service Design Playbook that provides guidance on the beta phase, focusing on testing and improving a service before full launch",
+    "url": "https://www.ontario.ca/page/service-design-playbook#Beta",
+    "section_name": "develop",
+    "category_name": "guide",
+    "tag_array": [
+      "develop phase"
+    ]
+  },
+  {
+    "title": "Service Design Playbook - Alpha Phase",
+    "description": "A section of the Ontario Digital Service's Service Design Playbook that outlines key principles and practices for designing effective and user-centered services",
+    "url": "https://www.ontario.ca/page/service-design-playbook#section-2",
+    "section_name": "define",
+    "category_name": "guide",
+    "tag_array": [
+      "define phase"
+    ]
+  },
+  {
+    "title": "Design Methods Step 3: Develop",
+    "description": "An article from the Design Council that explains the third step in the design process, focusing on developing and iterating solutions",
+    "url": "https://www.designcouncil.org.uk/our-resources/archive/articles/design-methods-step-3-develop/",
+    "section_name": "develop",
+    "category_name": "guide",
+    "tag_array": [
+      "develop phase"
+    ]
+  },
+  {
+    "title": "How the Live Phase Works",
+    "description": "Guidance from the UK Government Service Manual on the live phase of agile delivery, including continuous improvement and monitoring of the service",
+    "url": "https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-",
+    "section_name": "deliver",
+    "category_name": "guide",
+    "tag_array": [
+      "deliver phase"
+    ]
+  },
+  {
+    "title": "Service Design Playbook - Live Phase",
+    "description": "A section of the Ontario Digital Service's Service Design Playbook that outlines key principles and practices for designing effective and user-centered services",
+    "url": "https://www.ontario.ca/page/service-design-playbook#section-3",
+    "category_name": null,
+    "section_name": "deliver",
+    "tag_array": [
+      "deliver phase"
+    ]
+  },
+  {
+    "title": "Design Methods Step 4: Deliver",
+    "description": "An article from the Design Council detailing the fourth step in the design process, focusing on delivering the final solution and assessing its impact",
+    "url": "https://www.designcouncil.org.uk/our-resources/archive/articles/design-methods-step-4-deliver/",
+    "section_name": "deliver",
+    "category_name": "guide",
+    "tag_array": [
+      "deliver phase"
+    ]
+  },
+  {
+    "title": "Scaling for Success: Best Practices for Sustaining Civic Tech",
+    "description": "An article from Code for All discussing strategies and best practices for scaling and sustaining civic tech initiatives",
+    "url": "https://codeforall.org/2023/03/20/scaling-for-success-best-practices-for-sustaining-civic-tech/",
+    "category_name": null,
+    "section_name": "sustainable and scalable",
+    "tag_array": [
+      "scaling"
+    ]
+  },
+  {
+    "title": "Retiring Your Service",
+    "description": "Guidance from the UK Government Service Manual on how to properly retire a service, including planning, communication, and data management",
+    "url": "https://www.gov.uk/service-manual/agile-delivery/retiring-your-service",
+    "section_name": "evolve",
+    "category_name": "guide",
+    "tag_array": [
+      "strategy"
+    ]
+  },
+  {
+    "title": "Open Source Best Practices: It's Okay to Hit Pause",
+    "description": "An article from Open Source Guide discussing best practices for pausing or archiving open source projects responsibly",
+    "url": "https://opensource.guide/best-practices/#its-okay-to-hit-pause",
+    "section_name": "evolve",
+    "category_name": "idea",
+    "tag_array": [
+      "open source"
+    ]
+  },
+  {
+    "title": "Open Source Code of Conduct",
+    "description": "A guide from Open Source Guide on creating and implementing a code of conduct for open source projects to ensure inclusive and respectful community interactions",
+    "url": "https://opensource.guide/code-of-conduct/",
+    "section_name": "open and transparent",
+    "category_name": "guide",
+    "tag_array": [
+      "open source"
+    ]
+  },
+  {
+    "title": "Design Brief Template",
+    "description": "A comprehensive template provided by Business Victoria to help businesses articulate their design project needs",
+    "url": "https://business.vic.gov.au/tools-and-templates/design-brief-template",
+    "category_name": null,
+    "section_name": "define",
+    "tag_array": [
+      "problem definition",
+      "design"
+    ]
+  },
+  {
+    "title": "What is OKR? Meaning, Definition, and Example",
+    "description": "A detailed explanation of OKRs (Objectives and Key Results), including definitions and examples to help organizations set and achieve their goals",
+    "url": "https://www.whatmatters.com/faqs/okr-meaning-definition-example",
+    "category_name": null,
+    "section_name": "define",
+    "tag_array": [
+      "problem definition"
+    ]
+  },
+  {
+    "title": "The Basics of Designing & Facilitating Meetings",
+    "description": "An article from MIT Human Resources outlining key questions and elements for effective meeting design and facilitation",
+    "url": "https://hr.mit.edu/learning-topics/meetings/articles/basics",
+    "section_name": "iterative and responsive",
+    "category_name": "learn",
+    "tag_array": [
+      "facilitation"
+    ]
+  },
+  {
+    "title": "Collaborative Decision-Making - Project Management Institute",
+    "description": "An article from the Project Management Institute discussing methods and best practices for collaborative decision-making in project environments",
+    "url": "https://www.pmi.org/learning/library/collaborative-decision-making-group-7667",
+    "section_name": "leadership and storytelling",
+    "category_name": "guide",
+    "tag_array": [
+      "decision making"
+    ]
+  },
+  {
+    "title": "How to Write Good Documentation",
+    "description": "Guidelines from UC Berkeley Library on writing clear and effective documentation, covering principles and best practices",
+    "url": "https://guides.lib.berkeley.edu/how-to-write-good-documentation",
+    "section_name": "sustainable and scalable",
+    "category_name": "guide",
+    "tag_array": [
+      "documentation"
+    ]
+  },
+  {
+    "title": "Write the Docs Guide",
+    "description": "A comprehensive guide from Write the Docs on creating and maintaining excellent documentation for software and technical projects",
+    "url": "https://www.writethedocs.org/guide/",
+    "section_name": "sustainable and scalable",
+    "category_name": "guide",
+    "tag_array": [
+      "documentation",
+      "sustainability"
+    ]
+  },
+  {
+    "title": "Documentation Best Practices (Google Style Guide)",
+    "description": "Google's style guide providing best practices for writing clear and concise documentation, including updating and managing documentation efficiently",
+    "url": "https://google.github.io/styleguide/docguide/best_practices.html",
+    "section_name": "sustainable and scalable",
+    "category_name": "guide",
+    "tag_array": [
+      "documentation",
+      "sustainability"
+    ]
+  },
+  {
+    "title": "Why It Is Necessary to Improve Team Communication",
+    "description": "An article from American Public University discussing the importance of improving team communication and strategies to enhance collaboration and productivity",
+    "url": "https://www.apu.apus.edu/area-of-study/business-and-management/resources/why-it-is-necessary-to-improve-team-communication/",
+    "section_name": "connection and relationship",
+    "category_name": "idea",
+    "tag_array": [
+      "facilitation",
+      "team development"
+    ]
+  },
+  {
+    "title": "Guide to UX Research Methods",
+    "description": "An article by Nielsen Norman Group providing a comprehensive overview of various UX research methods and when to use them",
+    "url": "https://www.nngroup.com/articles/guide-ux-research-methods/",
+    "section_name": "user centered and inclusive",
+    "category_name": "guide",
+    "tag_array": [
+      "user research",
+      "user centered "
+    ]
+  },
+  {
+    "title": "UX Expert Reviews",
+    "description": "An article explaining the process and benefits of conducting expert reviews for evaluating user interfaces",
+    "url": "https://www.nngroup.com/articles/ux-expert-reviews/",
+    "section_name": null,
+    "category_name": "guide",
+    "tag_array": [
+      "user research",
+      "user centered "
+    ]
+  },
+  {
+    "title": "How to Conduct a Heuristic Evaluation",
+    "description": "A guide on performing heuristic evaluations to identify usability issues in a user interface",
+    "url": "https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/",
+    "section_name": null,
+    "category_name": "guide",
+    "tag_array": [
+      "user research"
+    ]
+  },
+  {
+    "title": "Informed Consent for UX Research",
+    "description": "An article discussing the importance of informed consent in UX research and how to implement it",
+    "url": "https://www.nngroup.com/articles/informed-consent/",
+    "section_name": "user centered and inclusive",
+    "category_name": "guide",
+    "tag_array": [
+      "user research",
+      "ethics"
+    ]
+  },
+  {
+    "title": "Stakeholder Interviews",
+    "description": "A guide on conducting effective stakeholder interviews to gather project requirements and expectations",
+    "url": "https://www.nngroup.com/articles/stakeholder-interviews/",
+    "section_name": null,
+    "category_name": "guide",
+    "tag_array": [
+      "user research",
+      "user centered "
+    ]
+  },
+  {
+    "title": "Interview Guide: UX Research",
+    "description": "An article on creating an effective interview guide for conducting user research interviews",
+    "url": "https://www.nngroup.com/articles/interview-guide/",
+    "section_name": null,
+    "category_name": "guide",
+    "tag_array": [
+      "user research",
+      "user centered "
+    ]
+  },
+  {
+    "title": "Usability Testing 101",
+    "description": "A beginner's guide to usability testing, covering the basics of planning and conducting usability tests",
+    "url": "https://www.nngroup.com/articles/usability-testing-101/",
+    "section_name": "user centered and inclusive",
+    "category_name": "learn",
+    "tag_array": [
+      "user research"
+    ]
+  },
+  {
+    "title": "Observer Guidelines for Usability Testing",
+    "description": "Guidelines for observers during usability testing sessions to ensure accurate data collection and respect for participants",
+    "url": "https://www.nngroup.com/articles/observer-guidelines/",
+    "section_name": "develop",
+    "category_name": "guide",
+    "tag_array": [
+      "user research"
+    ]
+  },
+  {
+    "title": "Workshop Facilitation 101",
+    "description": "A guide to facilitating workshops effectively, including preparation, execution, and follow-up strategies",
+    "url": "https://www.nngroup.com/articles/workshop-facilitation-101/",
+    "section_name": "leadership and storytelling",
+    "category_name": "learn",
+    "tag_array": [
+      "facilitation"
+    ]
+  },
+  {
+    "title": "Journey Mapping 101",
+    "description": "An introduction to journey mapping, a tool for visualizing the customer experience across various touchpoints",
+    "url": "https://www.nngroup.com/articles/journey-mapping-101/",
+    "section_name": "user centered and inclusive",
+    "category_name": "learn",
+    "tag_array": [
+      "design",
+      "user centered "
+    ]
+  },
+  {
+    "title": "Service Blueprinting Template",
+    "description": "A template and guide for creating service blueprints to analyze and improve service processes",
+    "url": "https://www.nngroup.com/articles/service-blueprinting-template/",
+    "section_name": "define",
+    "category_name": "tool",
+    "tag_array": [
+      "design"
+    ]
+  },
+  {
+    "title": "Paper Prototyping Cutout Kit",
+    "description": "A resource for creating paper prototypes, including cutout templates for common interface elements",
+    "url": "https://www.nngroup.com/articles/paper-prototyping-cutout-kit/",
+    "section_name": "define",
+    "category_name": "tool",
+    "tag_array": [
+      "prototyping"
+    ]
+  },
+  {
+    "title": "Design Critiques",
+    "description": "An article explaining how to conduct effective design critiques to improve design outcomes",
+    "url": "https://www.nngroup.com/articles/design-critiques/",
+    "section_name": "develop",
+    "category_name": "guide",
+    "tag_array": [
+      "decision making",
+      "design"
+    ]
+  },
+  {
+    "title": "The UNIX Philosophy",
+    "description": "An article detailing the principles of the UNIX philosophy, which emphasizes simplicity, modularity, and clarity in software design",
+    "url": "https://www.linfo.org/unix_philosophy.html",
+    "section_name": "vision setting",
+    "category_name": "idea",
+    "tag_array": [
+      "product management",
+      "prototyping"
+    ]
+  },
+  {
+    "title": "The Art of Unix Programming: The UNIX Philosophy",
+    "description": "A section from \"The Art of Unix Programming\" by Eric S. Raymond, explaining key principles of UNIX programming",
+    "url": "http://www.catb.org/esr/writings/taoup/html/ch01s06.html",
+    "section_name": "vision setting",
+    "category_name": "idea",
+    "tag_array": [
+      "product management",
+      "prototyping",
+      "problem definition"
+    ]
+  },
+  {
+    "title": "Accessibility Checklist",
+    "description": "An accessibility checklist provided by The A11Y Project to ensure digital content is accessible to all users",
+    "url": "https://www.a11yproject.com/checklist/",
+    "section_name": "user centered and inclusive",
+    "category_name": "tool",
+    "tag_array": [
+      "accessibility"
+    ]
+  },
+  {
+    "title": "What is WCAG?",
+    "description": "An article explaining the Web Content Accessibility Guidelines (WCAG) and their importance in creating accessible web content",
+    "url": "https://www.wcag.com/resource/what-is-wcag/",
+    "section_name": "user centered and inclusive",
+    "category_name": "guide",
+    "tag_array": [
+      "accessibility"
+    ]
+  },
+  {
+    "title": "Leverage Points: Places to Intervene in a System",
+    "description": "An article by Donella Meadows discussing leverage points for effecting change in complex systems",
+    "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+    "section_name": "connection and relationship",
+    "category_name": "idea",
+    "tag_array": [
+      "systems thinking"
+    ]
+  }
 ]

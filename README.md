@@ -6,13 +6,15 @@ When people show up to do good, let's make their odds great by being better toge
 
 ## Essentials
 
-**Current Focus:** 
+**Current Focus:**
+
 - We are creating a civic tech project guide to help people interested in creating civic tech projects.
 
 **Get involved:**
-1) Join the [CivicTechTO Slack]([url](http://link.civictech.ca/slack)) and our [#civic-tech-toolkit](https://civictechto.slack.com/archives/C0739GZADL6) channel.
-2) Attend a weekly hacknight at [CivicTechTO](https://civictech.ca) and join our group.
-3) Contribution Guide on the [wiki](https://github.com/CivicTechTO/civicsaurus/wiki) `Coming Soon`
+
+1. Join the [CivicTechTO Slack](<[url](http://link.civictech.ca/slack)>) and our [#civic-tech-toolkit](https://civictechto.slack.com/archives/C0739GZADL6) channel.
+2. Attend a weekly hacknight at [CivicTechTO](https://civictech.ca) and join our group.
+3. Contribution Guide on the [wiki](https://github.com/CivicTechTO/civicsaurus/wiki) `Coming Soon`
 
 ## 🚀 Development - Getting Started
 
@@ -26,6 +28,7 @@ To run this project locally and start contributing, follow these steps:
 ### Installation
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/CivicTechTO/civicsaurus.git
    cd civicsaurus
@@ -58,8 +61,6 @@ The build output will be generated in the `build` directory. You can serve this 
    npm run serve
 ```
 
-
-
 ## Contributors
 
 `List Coming Soon -- w/ allcontributors.org`
@@ -67,4 +68,9 @@ The build output will be generated in the `build` directory. You can serve this 
 ## Colophon
 
 - Docusaurus: This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-- GitHub Pages & Actions: This website is hosted using [GitHub Pages]([url](https://pages.github.com)) with [GitHub Actions](https://github.com/features/actions) deployment automations.
+- GitHub Pages & Actions: This website is hosted using [GitHub Pages](<[url](https://pages.github.com)>) with [GitHub Actions](https://github.com/features/actions) deployment automations.
+
+curl -X 'GET' \
+ '' \
+ -H 'accept: application/json' \
+ -H 'xc-token: 3XPpISoV2l3VehhT6-fUSByMWpkaEZQ5UeiHWOPT'

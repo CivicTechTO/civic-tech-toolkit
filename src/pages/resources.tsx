@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 // Define a TypeScript interface for your resource data
 interface Resource {
@@ -11,18 +12,22 @@ interface Resource {
 
 const Resources: React.FC = () => {
   const [resources, setResources] = useState<Resource[]>([]);
+  const { siteConfig } = useDocusaurusContext();
+  const baseUrl = siteConfig.baseUrl;
 
   useEffect(() => {
-    // Fetch the resources.json file from the correct path
-    fetch('/json/resources.json')
+    fetch(`${baseUrl}json/resources.json`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
         return response.json();
       })
-      .then((data: Resource[]) => setResources(data))
-      .catch((error) => console.error('Error fetching resources:', error));
+      .then((data: Resource[]) => {
+        console.log("Fetched data:", data); // Log the data
+        setResources(data);
+      })
+      .catch((error) => console.error("Error fetching resources:", error));
   }, []);
 
   return (
@@ -33,8 +38,8 @@ const Resources: React.FC = () => {
           <li key={index}>
             <a href={resource.url} target="_blank" rel="noopener noreferrer">
               {resource.title}
-            </a>
-            <p>{resource.description}</p>
+            </a>{" "}
+            | {resource.description}
           </li>
         ))}
       </ul>
