@@ -1,28 +1,32 @@
 import React, { useEffect, useState } from "react";
 
+// Interface for a single resource item
 interface Resource {
   title: string;
   description: string;
+  url: string;
   category_name: string;
   section_name: string;
-  url: string;
   tag_array: string[];
 }
 
+// Props for the component, allowing optional tag and section filters
 interface FilteredResourcesProps {
-  matchTag?: string; // Tag to filter resources by (optional)
-  matchSection?: string; // Section to filter resources by (optional)
+  matchTag?: string; // Optional tag to filter by
+  matchSection?: string; // Optional section to filter by
 }
 
 const FilteredResources: React.FC<FilteredResourcesProps> = ({
   matchTag,
   matchSection,
 }) => {
-  const [resources, setResources] = useState<Resource[]>([]);
-  const [filteredResources, setFilteredResources] = useState<Resource[]>([]);
+  // State to store grouped resources by category
+  const [groupedResources, setGroupedResources] = useState<{
+    [category: string]: Resource[];
+  }>({});
 
+  // Effect to fetch and filter resources when the component mounts or props change
   useEffect(() => {
-    // Fetch the resources.json file
     fetch("/civicsaurus/json/resources.json")
       .then((response) => {
         if (!response.ok) {
@@ -31,43 +35,64 @@ const FilteredResources: React.FC<FilteredResourcesProps> = ({
         return response.json();
       })
       .then((data: Resource[]) => {
-        setResources(data);
+        // Initial filtering of resources based on provided props
+        let filteredResources = data;
+
+        // Filter by matchTag if provided
+        if (matchTag) {
+          filteredResources = filteredResources.filter((resource) =>
+            resource.tag_array.includes(matchTag)
+          );
+        }
+
+        // Filter by matchSection if provided
+        if (matchSection) {
+          filteredResources = filteredResources.filter(
+            (resource) => resource.section_name === matchSection
+          );
+        }
+
+        // Group resources by category
+        const grouped: { [category: string]: Resource[] } = {};
+        filteredResources.forEach((resource) => {
+          if (!grouped[resource.category_name]) {
+            grouped[resource.category_name] = [];
+          }
+          grouped[resource.category_name].push(resource);
+        });
+
+        // Update state with grouped resources
+        setGroupedResources(grouped);
       })
       .catch((error) => console.error("Error fetching resources:", error));
-  }, []);
-
-  useEffect(() => {
-    // Filter resources based on matchTag or matchSection
-    const filtered = resources.filter((resource) => {
-      const tagMatch = matchTag ? resource.tag_array.includes(matchTag) : true;
-      const sectionMatch = matchSection
-        ? resource.section_name === matchSection
-        : true;
-      return tagMatch && sectionMatch;
-    });
-
-    setFilteredResources(filtered);
-  }, [resources, matchTag, matchSection]);
+  }, [matchTag, matchSection]); // Dependencies to trigger the effect
 
   return (
     <div>
-      <h2>
-        Resources {matchTag && `Tagged with "${matchTag}"`}{" "}
-        {matchSection && `in Section "${matchSection}"`}
-      </h2>
-      {filteredResources.length === 0 ? (
+      {/* If no resources match, show a message */}
+      {Object.entries(groupedResources).length === 0 ? (
         <p>No resources found for the selected criteria.</p>
       ) : (
-        <ul>
-          {filteredResources.map((resource, index) => (
-            <li key={index}>
-              <a href={resource.url} target="_blank" rel="noopener noreferrer">
-                {resource.title}
-              </a>{" "}
-              | {resource.description}
-            </li>
-          ))}
-        </ul>
+        // Render each category and its corresponding resources
+        Object.entries(groupedResources).map(([category, resources]) => (
+          <div key={category}>
+            <h3>{category}</h3>
+            <ul>
+              {resources.map((resource, index) => (
+                <li key={index}>
+                  <a
+                    href={resource.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {resource.title}
+                  </a>{" "}
+                  | {resource.description}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
       )}
     </div>
   );

@@ -69,8 +69,3 @@ The build output will be generated in the `build` directory. You can serve this 
 
 - Docusaurus: This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 - GitHub Pages & Actions: This website is hosted using [GitHub Pages](<[url](https://pages.github.com)>) with [GitHub Actions](https://github.com/features/actions) deployment automations.
-
-curl -X 'GET' \
- '' \
- -H 'accept: application/json' \
- -H 'xc-token: 3XPpISoV2l3VehhT6-fUSByMWpkaEZQ5UeiHWOPT'
