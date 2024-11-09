@@ -5,5 +5,4 @@ authors: [jordyarms]
 tags: [announcement]
 ---
 
-hello world
-👋🌎
+hello world 👋🌎 <!-- truncate -->
