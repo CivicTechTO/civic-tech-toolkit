@@ -504,8 +504,8 @@
     "title": "The Basics of Designing & Facilitating Meetings",
     "description": "An article from MIT Human Resources outlining key questions and elements for effective meeting design and facilitation",
     "url": "https://hr.mit.edu/learning-topics/meetings/articles/basics",
+    "section_name": null,
     "category_name": "Learning Sources",
-    "section_name": "iterative and responsive",
     "tag_array": [
       "Facilitation"
     ]
@@ -716,7 +716,7 @@
     "description": "A section from \"The Art of Unix Programming\" by Eric S. Raymond, explaining key principles of UNIX programming",
     "url": "http://www.catb.org/esr/writings/taoup/html/ch01s06.html",
     "category_name": "Ideas",
-    "section_name": "vision setting",
+    "section_name": "iterative and responsive",
     "tag_array": [
       "Product Management",
       "Prototyping",
@@ -903,6 +903,30 @@
     "url": "https://aspirationtech.org",
     "section_name": null,
     "category_name": "Organizations",
+    "tag_array": []
+  },
+  {
+    "title": "Steve Blank's Resource List",
+    "description": "Startup Tools List",
+    "url": "https://steveblank.com/tools-and-blogs-for-entrepreneurs/#startup-tools",
+    "section_name": null,
+    "category_name": "Resource Collections",
+    "tag_array": []
+  },
+  {
+    "title": "Civic Tech Patterns – Code for America",
+    "description": null,
+    "url": "https://github.com/codeforamerica/civic-tech-patterns",
+    "section_name": null,
+    "category_name": "Ideas",
+    "tag_array": []
+  },
+  {
+    "title": "Fundraising Start Here from the Commons  Library",
+    "description": "A guide to resources in the Fundraising Topic on the Commons Library.",
+    "url": "https://commonslibrary.org/fundraising-topic-overview/",
+    "section_name": null,
+    "category_name": "Methodology",
     "tag_array": []
   }
 ]

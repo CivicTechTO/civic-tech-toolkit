@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import styles from "./styles.module.css"; // Import the CSS module for styling
 
 // Interface for a single resource item
 interface Resource {
@@ -68,7 +69,7 @@ const FilteredResources: React.FC<FilteredResourcesProps> = ({
   }, [matchTag, matchSection]); // Dependencies to trigger the effect
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       {/* If no resources match, show a message */}
       {Object.entries(groupedResources).length === 0 ? (
         <p>No resources found for the selected criteria.</p>

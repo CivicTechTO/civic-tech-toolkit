@@ -1,0 +1,5 @@
+.wrapper {
+  background-color: var(--ifm-hover-overlay);
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+}
