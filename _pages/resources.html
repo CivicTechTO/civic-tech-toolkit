@@ -7,6 +7,6 @@ permalink: /resources
 {% for resource in site.resources %}
   <h3>{{ resource.title }}</h3>
   <p>{{ resource.excerpt }}</p>
-  <a href="{{ resource.url }}">Learn more</a>
+  <a href="{{ resource.url | relative_url }}">Learn more</a>
   <hr/>
 {% endfor %}

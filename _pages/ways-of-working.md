@@ -112,9 +112,3 @@ Continuing the journey in civic tech involves embracing continuous learning, ada
 :::note[Remember]
 The journey of a civic tech project doesn't end with launch or implementation. Commit to ongoing development and adaptation to ensure your solution continues to create value for your community in the long term.
 :::
-
-## Resources to help:
-
-import FilteredResources from "@site/src/components/FilteredResources";
-
-<FilteredResources matchSection="continuing the journey" />

@@ -7,6 +7,6 @@ permalink: /case-studies
 {% for case in site.case-studies %}
   <h3>{{ case.title }}</h3>
   <p>{{ case.excerpt }}</p>
-  <a href="{{ case.url }}">Learn more</a>
+  <a href="{{ case.url | relative_url }}">Learn more</a>
   <hr/>
 {% endfor %}

@@ -1,16 +1,13 @@
 title: Civic Tech Toolkit
 email: jordan@addwonder.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "civic-tech-toolkit"
+baseurl: "/civic-tech-toolkit"
 url: ""
 
-include: ["_pages"]
-exclude: ["hold", "readme.md"]
-
-permalink: pretty
+github_username: civictechto
 
 collections:
   resources:
@@ -32,16 +29,19 @@ defaults:
     values:
       layout: case-study
 
-# plugins:
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll_picture_tag
+  - jekyll-loading-lazy
 
+permalink: pretty
+
+include: ["_pages"]
 exclude:
+  - README
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/

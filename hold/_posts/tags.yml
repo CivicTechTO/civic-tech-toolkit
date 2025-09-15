@@ -1,9 +1,0 @@
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
-announcement:
-  label: Announcement
-  permalink: /announcements
-  description: Annnouncements
