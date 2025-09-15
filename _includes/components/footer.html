@@ -1,0 +1,12 @@
+<footer class="container">
+  <nav>
+   <ul>
+    <li>{{ site.title }}  ·  Last Updated: <code>{{ site.time | date: "%B %d, %Y %H:%M %Z" }}</code></li>
+   </ul> 
+   <ul>
+    {% for item in site.data.footer %}
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+  </nav>
+</footer>

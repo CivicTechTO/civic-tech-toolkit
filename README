@@ -1,0 +1,5 @@
+Serve
+
+```zsh
+bundle exec jekyll serve
+```

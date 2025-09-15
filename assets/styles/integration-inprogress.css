@@ -1,0 +1,81 @@
+article.card {
+  border: var(--btn_primary) solid 1px;
+}
+
+.button-primary {
+  color: #333;
+  letter-spacing: 0;
+  text-transform: none;
+  background-color: #9fcdbd;
+  border: 1px solid #9fcdbd;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-family: Manrope, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  transition: all 0.2s;
+}
+
+.button-primary:hover {
+  color: #fff;
+  background-color: #32343a;
+}
+
+.button-primary:active {
+  background-color: #43464d;
+}
+
+.centered-heading {
+  text-align: left;
+  margin-bottom: 16px;
+  font-family: Libre Baskerville, sans-serif;
+  font-weight: 400;
+}
+
+.team-slide-wrapper {
+  background-color: #ffe4c0;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.case-studies-block {
+  background-color: #ffe4c0;
+  padding-bottom: 24px;
+}
+
+.team-member-image-two {
+  margin-bottom: 18px;
+}
+
+.footer-light {
+  background-color: #dbece6;
+  border-bottom: 1px solid #e4ebf3;
+  padding: 80px 30px 40px;
+  position: relative;
+}
+
+.tools-block {
+  background-color: #ecedf7;
+  padding-bottom: 24px;
+}
+
+.blogs-block {
+  background-color: #ffe4c0;
+  padding-bottom: 24px;
+}
+
+.lifecycle-of-a-project-block {
+  background-color: #f2f7ff;
+  padding-bottom: 24px;
+}
+
+.core-values-block {
+  background-color: #fffbe4;
+  padding-bottom: 24px;
+}
+
+.waysofworkingblock {
+  background-color: #ffeef3;
+  padding-bottom: 24px;
+}

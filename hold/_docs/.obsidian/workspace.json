@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "6b6be7752b1e538d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fd841c3862a0feb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79338262e52f034a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e246f4c2559753d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "9adf96c7343e93d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9483cef855b408c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bb8baa046b4fe719",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9867ae29e3ad7db1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "abb75b8c70d9089e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b2255782294bf41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3c6fc7ee1b404c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-principles/01-user-centered-and-inclusive.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 01-user-centered-and-inclusive"
+            }
+          },
+          {
+            "id": "c57f4681fb6e33b4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02-principles/01-user-centered-and-inclusive.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 01-user-centered-and-inclusive"
+            }
+          },
+          {
+            "id": "af129796f13ddb2b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2346de14b1e23aae",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-principles/01-user-centered-and-inclusive.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 01-user-centered-and-inclusive"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-projects:Open projects": false
+    }
+  },
+  "active": "79338262e52f034a",
+  "lastOpenFiles": [
+    "02-principles/01-user-centered-and-inclusive.md",
+    "03-ways-of-working/01-orientation-and-vision-setting.md",
+    "patterns/methods/Stakeholder and User Interviews.md",
+    "patterns/methods/Idea Networking.md",
+    "patterns/methods/Usability Testing.md",
+    "patterns/methods/Object Mapping.md",
+    "01-intro.md",
+    "understandings/concep.md",
+    "understandings/concepts/Persona.md",
+    "understandings/concepts",
+    "understandings",
+    "04-project-lifecycle/04-catalyze.md",
+    "04-project-lifecycle/05-evolve.md",
+    "04-project-lifecycle/03-create.md",
+    "04-project-lifecycle/02-reframe.md",
+    "04-project-lifecycle/01-explore.md",
+    "02-principles/04-sustainable-and-scalable.md",
+    "02-principles/03-iterative-and-responsive.md",
+    "02-principles/02-open-and-transparent.md",
+    "03-ways-of-working/04-continuing-the-journey.md",
+    "03-ways-of-working/03-leadership-and-storytelling.md",
+    "03-ways-of-working/02-connection-and-relationship.md",
+    "patterns/methods",
+    "patterns"
+  ]
+}
